@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"
+  ></script>
+  <!-- 합쳐지고 최소화된 최신 CSS -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"
+  />
+
+  <!-- 부가적인 테마 -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"
+  />
+
+  <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <style>
+    #a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul class="nav nav-tabs nav-justified">
+      <li role="presentation" class="active"><a href="#">메일</a></li>
+      <li role="presentation"><a href="#">카페</a></li>
+      <li role="presentation"><a href="#">블로그</a></li>
+      <li role="presentation"><a href="#">뉴스</a></li>
+      <li role="presentation"><a href="#">웹툰</a></li>
+    </ul>
+
+    <ul class="nav nav-tabs">
+      <li role="presentation"><a href="#">블로그</a></li>
+      <li role="presentation"><a href="#">뉴스</a></li>
+      <li role="presentation"><a href="#">웹툰</a></li>
+      <li role="presentation" class="dropdown">
+        <a
+          class="dropdown-toggle"
+          data-toggle="dropdown"
+          href="#"
+          role="button"
+          aria-expanded="false"
+        >
+          Dropdown <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="presentation"><a href="#">aa</a></li>
+          <li role="presentation"><a href="#">bb</a></li>
+          <li role="presentation"><a href="#">cc</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</body>
